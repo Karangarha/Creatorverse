@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+
+html{
+    background-color: rgba(0,0,0,0.95);
+    scroll-behavior: smooth;
+}
+
+input, textarea{
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    width: 60vw;
+    font-size: 1rem;
+    height: 5rem;
+}
+label{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+label p{
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+}
+
+label>h1{
+    font-size: 1.25rem;
+    font-weight: semibold;
+
+}
+
+textarea{
+    height: 15rem;
+}
+
+input:focus, textarea:focus {
+    border-color: #3b82f6;
+    background-color: rgba(255,255,255,0.15);
+}
+
+button:hover{
+    cursor: pointer;
+}
